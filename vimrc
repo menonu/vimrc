@@ -64,7 +64,6 @@ call dein#call_hook('source')
 call dein#call_hook('post_source')
 
 "---------------------------------------------------------------------------
-"source ~/.vim/rc/neocomplete.rc.vim
 
 filetype plugin indent on
 

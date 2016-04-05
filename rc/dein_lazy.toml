@@ -4,6 +4,7 @@ repo = 'Shougo/unite.vim'
 [[plugins]]
 repo = 'davidhalter/jedi-vim'
 on_ft = 'python'
+depends = ['neocomplete.vim']
 hook_source = '''
   autocmd FileType python setlocal omnifunc=jedi#completions
   autocmd FileType python setlocal completeopt-=preview
